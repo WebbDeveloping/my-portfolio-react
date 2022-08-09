@@ -1,0 +1,81 @@
+.fixed-nav{
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 50;
+    height: 80px;
+}
+
+.navigation-wrap{
+    box-sizing: border-box;
+}
+
+.navigation-mobile{
+    position: static;
+    padding: 0 4% 0;
+    background-color: transparent;
+}
+
+.navigation-container-mobile{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-brand{
+    padding-left: 10px;
+    position: relative;
+    float: left;
+    text-decoration: none;
+}
+
+.logo-text{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #e5e5e5;
+    font-weight: 400;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 1.7em;
+    line-height: 1.7em;
+}
+
+.mobile-nav-menu{
+    display: none;
+    z-index: 50;
+    background-color: #070707;
+    box-shadow: 42px 42px 55px 0 rbga(32 53 90 / 9%)
+}
+
+.menu-mobile-button-wrapper{
+    padding-bottom: 0px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 22px;
+}
+
+.nav-button{
+    position: relative;
+    float: right;
+    padding: 18px;
+    font-size: 24px;
+    display: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    tap-highlight-color: rgba(0,0,0,0);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.burger{
+    height: 22px;
+    width: 22px;
+}
+.ham-wrapper{
+    position: relative;
+    height: 80px;
+    width: 80px;
+}
